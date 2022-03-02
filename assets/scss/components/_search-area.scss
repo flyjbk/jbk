@@ -17,19 +17,28 @@
 
   .search-category-detail {
     display: flex;
+    text-align: center;
   }
+}
 
-  .search-item {
-    padding: 0;
+.search-item {
+  padding: 0px;
+  border: 1px solid $color-gray3;
+  border-radius: 12px;
+  background-color: $color-gray1;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+  width: 40px;
 
-    & + .search-item {
-      padding-left: 2rem;
-      justify-items: auto;
-    }
-    &.true {
-      color: #000;
-      font-weight: 800;
-    }
+  & + .search-item {
+    padding-left: 2rem;
+    justify-items: auto;
+  }
+  &.true {
+    color: #000;
+    font-weight: 800;
   }
 }
 
@@ -72,7 +81,7 @@
     }
 
     .view-category {
-      font-size: $fontSizes-body2;
+      font-size: $fontSizes-body4;
       margin-top: 10px;
     }
 
@@ -90,6 +99,17 @@
 
     .view-date {
       margin-top: 10px;
+    }
+  }
+}
+
+.plus-button {
+  text-align: center;
+  border-bottom: 1px solid $color-gray2;
+  .view-more {
+    justify-items: center;
+    i {
+      font-size: 50px;
     }
   }
 }
