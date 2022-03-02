@@ -312,16 +312,52 @@ textarea::-webkit-outer-spin-button {
   border: none;
 }
 
-.hdline_type_thumb_sub {
-  margin-top: 3rem;
-  background-color: aqua;
-  padding-bottom: 2rem;
-  display: block;
+.footer-area {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 6rem auto;
+  padding: 0 24px;
+  max-width: 960px;
+  height: auto;
+  letter-spacing: -0.3px;
+  line-height: 1.7;
+  background-color: red;
+  position: absolute;
 }
 
-.thumb_lst {
-  margin: 0;
-  padding: 0;
+.footer-area .footer-company-name {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-area .footer-content-list {
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  color: #4d4d4d;
+}
+
+.footer-area .footer-content-list .footer-content-item-wrapper {
+  display: inline-block;
+}
+
+.footer-area .footer-content-list .footer-content-item-wrapper .footer-content-item {
+  display: inline;
+}
+
+.footer-area .footer-content-list .footer-content-item-wrapper .footer-content-item + .footer-content-item {
+  padding-left: 4px;
+  border-left: 1px solid #4d4d4d;
+}
+
+.footer-area .footer-sns-wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[6];
+      grid-template-columns: repeat(6, auto);
+  max-width: 100%;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .container {
