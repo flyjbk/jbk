@@ -262,6 +262,10 @@ textarea::-webkit-outer-spin-button {
   height: 100%;
 }
 
+.search-area .search-word {
+  font-size: 2.65rem;
+}
+
 .search-category {
   font-size: 1rem;
   color: #333333;
@@ -271,7 +275,7 @@ textarea::-webkit-outer-spin-button {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
   width: 100%;
 }
@@ -281,6 +285,9 @@ textarea::-webkit-outer-spin-button {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -288,13 +295,15 @@ textarea::-webkit-outer-spin-button {
 
 .search-category .search-category-detail .search-category-link {
   border: 1px solid #808080;
+  padding: 0;
   border-radius: 12px;
   background-color: #cccccc;
   color: white;
-  text-align: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  width: 120px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  height: 35px;
 }
 
 .search-category .search-category-detail .search-category-link + .search-category-link {

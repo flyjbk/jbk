@@ -4,6 +4,10 @@
   margin: 0 auto;
   max-width: $sizes-maxContent;
   height: 100%;
+
+    .search-word {
+      font-size: $fontSizes-heading2;
+    }
 }
 
 .search-category {
@@ -11,25 +15,28 @@
   color: $color-gray5;
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 40px;
   margin-bottom: 30px;
   width: 100%;
   
   .search-category-detail {
     display: flex;
     text-align: center;
+    align-items: center;
     margin: 0;
     justify-content: space-around;
     
      .search-category-link {
       
       border: 1px solid $color-gray3;
+      padding: 0;
       border-radius: 12px;
       background-color: $color-gray1;
       color: white;
-      text-align: center;
-      justify-content: space-around;
-      width: 120px;
+    
+      justify-content: center;
+      width: 100px;
+      height: 35px;
 
        & + .search-category-link {
          margin-left: 1.5rem;
