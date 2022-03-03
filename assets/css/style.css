@@ -294,9 +294,14 @@ textarea::-webkit-outer-spin-button {
   text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  width: 120px;
 }
 
-.search-item:hover {
+.search-category .search-category-detail .search-category-link + .search-category-link {
+  margin-left: 1.5rem;
+}
+
+.search-category .search-category-detail .search-category-link:hover {
   font-weight: bold;
   background-color: black;
 }
@@ -454,7 +459,8 @@ textarea::-webkit-outer-spin-button {
   display: flex;
   padding: 0 24px;
   margin-left: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 
 .footer-area .footer-sns-wrapper .btn-footer-sns {
