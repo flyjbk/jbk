@@ -14,32 +14,42 @@
   margin-top: 30px;
   margin-bottom: 30px;
   width: 100%;
-
+  
   .search-category-detail {
     display: flex;
     text-align: center;
-  }
-}
-
-.search-item {
-  padding: 0px;
-  border: 1px solid $color-gray3;
+    margin: 0;
+    justify-content: space-around;
+    
+     .search-category-link {
+      
+      border: 1px solid $color-gray3;
   border-radius: 12px;
   background-color: $color-gray1;
   color: white;
   text-align: center;
-  justify-content: center;
-  margin: 10px;
-  width: 40px;
+  justify-content: space-around;
 
-  & + .search-item {
-    padding-left: 2rem;
-    justify-items: auto;
+  
   }
-  &.true {
-    color: #000;
-    font-weight: 800;
-  }
+     }
+  
+}
+
+.search-item {
+  
+  
+  
+  
+  
+
+  
+  
+}
+
+.search-item:hover {
+  font-weight: bold;
+  background-color: black;
 }
 
 .search-icon {

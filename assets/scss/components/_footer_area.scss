@@ -1,0 +1,44 @@
+.footer-area {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: $fontSizes-body3;
+
+     .footer-box {
+         padding: $m-padding;
+         margin-top: 5rem;
+         margin-left: 4rem;
+
+          .footer-company {
+              font-weight: bold;
+              font-size: $fontSizes-body2;
+          }
+
+          .footer-list {
+              display: flex;
+
+               .footer-list-item {
+                   margin-top: 1rem;
+                   font-size: $fontSizes-body4;
+           
+                   & + .footer-list-item {
+                       padding-left: 10px;
+                   }
+               }
+          }
+     }
+
+     .footer-sns-wrapper {
+         display: flex;
+         padding: 0 $m-padding;
+         margin-left: 4rem;
+         margin-top: 2rem;
+
+          .btn-footer-sns {
+              font-weight: bold;
+              font-size: $fontSizes-body3;
+
+              & + .btn-footer-sns {
+                  padding-left: 3rem;
+              }
+          }
+     }
+   }
