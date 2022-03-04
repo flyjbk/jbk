@@ -5,9 +5,9 @@
   max-width: $sizes-maxContent;
   height: 100%;
 
-    .search-word {
-      font-size: $fontSizes-heading2;
-    }
+  .search-word {
+    font-size: $fontSizes-heading2;
+  }
 }
 
 .search-category {
@@ -18,47 +18,41 @@
   margin-top: 40px;
   margin-bottom: 30px;
   width: 100%;
-  
+
   .search-category-detail {
     display: flex;
     text-align: center;
-    align-items: center;
+    align-content: center;
     margin: 0;
     justify-content: space-around;
-    
-     .search-category-link {
-      
-      border: 1px solid $color-gray3;
+
+    .search-category-link {
       padding: 0;
-      border-radius: 12px;
+      border-radius: 50px;
       background-color: $color-gray1;
       color: white;
-    
+      align-content: center;
       justify-content: center;
       width: 100px;
       height: 35px;
 
-       & + .search-category-link {
-         margin-left: 1.5rem;
-       }
-  }
+      & + .search-category-link {
+        margin-left: 1.5rem;
+      }
+    }
 
-  .search-category-link:hover {
-    font-weight: 800;
-    background-color: black;
+    .search-category-link:hover {
+      font-weight: 800;
+      background-color: black;
+    }
   }
-     }
-  
 }
 
-
-
 .search-input {
-  
   width: 100%;
   height: 100%;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   align-items: center;
   border-top: 1px solid $color-gray2;
   border-bottom: 1px solid $color-gray2;
@@ -70,23 +64,21 @@
   border: none;
 }
 
-
 .search-group {
   display: flex;
   font-size: $fontSizes-body3;
+  justify-content: center;
   margin-top: 60px;
 
   .view-list {
     display: inline-block;
-    justify-content: space-between;
-    width: 100%;
-
-    padding-top: 20px;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1rem;
 
     .img {
       width: 300px;
       height: 400px;
-      border-radius: 16px;
       overflow: hidden;
     }
 
@@ -97,7 +89,7 @@
 
     .view-title {
       text-overflow: ellipsis;
-
+      justify-content: space-between;
       overflow: hidden;
       display: -webkit-box;
       -webkit-line-clamp: 2;
@@ -117,7 +109,6 @@
   text-align: center;
   border-bottom: 1px solid $color-gray2;
   .view-more {
-    justify-items: center;
     i {
       font-size: 50px;
     }
