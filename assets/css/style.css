@@ -434,57 +434,50 @@ textarea::-webkit-outer-spin-button {
 }
 
 .footer-area {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 0.9rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 6rem auto;
   padding: 0 24px;
-  margin: 0 auto;
   max-width: 960px;
-  height: 100%;
+  height: auto;
+  letter-spacing: -0.3px;
+  line-height: 1.7;
+  background-color: red;
 }
 
-.footer-area .footer-box {
-  margin-top: 5rem;
-}
-
-.footer-area .footer-box .footer-company {
-  font-weight: bold;
+.footer-area .footer-company-name {
   font-size: 1rem;
+  font-weight: bold;
 }
 
-.footer-area .footer-box .footer-list {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 100%;
+.footer-area .footer-content-list {
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  color: #4d4d4d;
 }
 
-.footer-area .footer-box .footer-list .footer-list-item {
-  margin-top: 1rem;
-  font-size: 0.7375rem;
+.footer-area .footer-content-list .footer-content-item-wrapper {
+  display: inline-block;
 }
 
-.footer-area .footer-box .footer-list .footer-list-item + .footer-list-item {
-  padding-left: 10px;
+.footer-area .footer-content-list .footer-content-item-wrapper .footer-content-item {
+  display: inline;
+}
+
+.footer-area .footer-content-list .footer-content-item-wrapper .footer-content-item + .footer-content-item {
+  padding-left: 4px;
+  border-left: 1px solid #4d4d4d;
 }
 
 .footer-area .footer-sns-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
-}
-
-.footer-area .footer-sns-wrapper .btn-footer-sns {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[6];
+      grid-template-columns: repeat(6, auto);
+  max-width: 100%;
+  font-size: 1rem;
   font-weight: bold;
-  font-size: 0.9rem;
-}
-
-.footer-area .footer-sns-wrapper .btn-footer-sns + .btn-footer-sns {
-  padding-left: 3rem;
 }
 
 .container {
@@ -525,7 +518,7 @@ textarea::-webkit-outer-spin-button {
 }
 
 .more .btn-more-plus::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 10px;
   border-top: 2px solid;
@@ -535,7 +528,7 @@ textarea::-webkit-outer-spin-button {
 }
 
 .more .btn-more-plus::after {
-  content: "";
+  content: '';
   position: absolute;
   width: 10px;
   border-top: 2px solid;
@@ -557,4 +550,3 @@ textarea::-webkit-outer-spin-button {
   background-color: #5a28fa;
   color: #fff;
 }
-/*# sourceMappingURL=style.css.map */
