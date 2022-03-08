@@ -1,61 +1,61 @@
 .container {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  min-height: 100vh;
-  margin-top: 4rem;
-  word-break: keep-all;
-  // width: $sizes-maxContent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+    margin-top: 4rem;
+    word-break: keep-all;
+    // width: $sizes-maxContent;
 }
 
 .more {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 700px;
-  height: 68px;
-  font-size: $fontSizes-body1;
-  font-weight: bold;
-  line-height: 1;
-  border: 2px solid;
-  border-radius: 34px;
-  text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+    height: 68px;
+    font-size: $fontSizes-body1;
+    font-weight: bold;
+    line-height: 1;
+    border: 2px solid;
+    border-radius: 34px;
+    text-align: center;
 
-  .btn-more-plus {
-    width: 20px;
-    &::before {
-      content: "";
-      position: absolute;
-      width: 10px;
-      border-top: 2px solid;
-      background-color: inherit;
-      transform: translate(-50%, -0.5px);
+    .btn-more-plus {
+        width: 20px;
+        &::before {
+            content: '';
+            position: absolute;
+            width: 10px;
+            border-top: 2px solid;
+            background-color: inherit;
+            transform: translate(-50%, -0.5px);
+        }
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 10px;
+            border-top: 2px solid;
+            background-color: inherit;
+            transform: translate(-50%, -0.5px) rotate(90deg); 
+        }
+    }
+    &.service {
+        border-color: $point-color;
+        color: $point-color;
     }
 
-    &::after {
-      content: "";
-      position: absolute;
-      width: 10px;
-      border-top: 2px solid;
-      background-color: inherit;
-      transform: translate(-50%, -0.5px) rotate(90deg);
+    &.culture {
+        margin: 1rem 0 0 0;
+        width: 15rem;
+        border-radius: 8px;
+        border: 0;
+        background-color: $point-color;
+        color: #fff;
     }
-  }
-  &.service {
-    border-color: $point-color;
-    color: $point-color;
-  }
-
-  &.culture {
-    margin: 1rem 0 0 0;
-    width: 15rem;
-    border-radius: 8px;
-    border: 0;
-    background-color: $point-color;
-    color: #fff;
-  }
 }

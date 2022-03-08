@@ -1,49 +1,49 @@
 .footer-area {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: $fontSizes-body3;
-    align-items: center;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 6rem auto;
     padding: 0 $m-padding;
-    margin: 0 auto;
     max-width: $sizes-maxContent;
-    height: 100%;
+    height: auto;
+    letter-spacing: -0.3px;
+    line-height: 1.7;
+    background-color: red;
+    
+    .footer-company-name {
+        font-size: $fontSizes-body2;
+        font-weight: bold;
+    }
 
-     .footer-box {
-         
-         margin-top: 5rem;
-       
+    .footer-content-list {
+        margin: 2rem 0;
+        font-size: $fontSizes-body3;
+        color: $color-gray4;
 
-          .footer-company {
-              font-weight: bold;
-              font-size: $fontSizes-body2;
-          }
+        .footer-content-item-wrapper {
+            display: inline-block;
 
-          .footer-list {
-              display: inline-flex;
-              width: 100%;
+            .footer-content-item {
+                display: inline;
 
-               .footer-list-item {
-                   margin-top: 1rem;
-                   font-size: $fontSizes-body4;
-           
-                   & + .footer-list-item {
-                       padding-left: 10px;
-                   }
-               }
-          }
-     }
+                & + .footer-content-item {
+                    padding-left: 4px;
+                    border-left: 1px solid $color-gray4;
+                }
+            
+            }
 
-     .footer-sns-wrapper {
-         display: flex;
-         margin-top: 2rem;
-         margin-bottom: 4rem;
+            & + .footer-content-item-wrapper {
+                // border-left: 1px solid $color-gray4;
+            }
+        }
+    }
 
-          .btn-footer-sns {
-              font-weight: bold;
-              font-size: $fontSizes-body3;
-
-              & + .btn-footer-sns {
-                  padding-left: 3rem;
-              }
-          }
-     }
-   }
+    .footer-sns-wrapper {
+        display: grid;
+        grid-template-columns: repeat(6,auto);
+        max-width: 100%;
+        font-size: $fontSizes-body2;
+        font-weight: bold;
+    }
+}
