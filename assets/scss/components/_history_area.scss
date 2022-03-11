@@ -85,6 +85,7 @@
                         &::before {
                             content: '';
                             position: absolute;
+                            top: 0.6rem;
                             width: 2px;
                             height: 2px;
                             border-radius: 50%;
@@ -94,6 +95,7 @@
 
                         span {
                             margin-left: 9px;
+                            word-break: break-all;
                         }
                     }
                 }

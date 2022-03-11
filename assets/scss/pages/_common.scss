@@ -45,6 +45,7 @@
             transform: translate(-50%, -0.5px) rotate(90deg); 
         }
     }
+
     &.service {
         border-color: $point-color;
         color: $point-color;
@@ -57,5 +58,81 @@
         border: 0;
         background-color: $point-color;
         color: #fff;
+    }
+}
+
+.btn-more-service {
+    position: relative;
+    margin-right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    top: 2.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: #000;
+    border-radius: 50%;
+
+    &::before {
+        content: '';
+        width: 1.7rem;
+        height: 1.7rem;
+        border-top: 3px solid #fff;
+        transform: translate(15%,50%);
+    }
+    &::after {
+        content: '';
+        width: 0.7rem;
+        height: 0.7rem;
+        border-top: 3px solid #fff;
+        border-right: 3px solid #fff;
+        transform: translate(-50%, 15%) rotate(45deg);
+    }
+}
+
+.and-bar {
+    position: relative;
+    width: $fontSizes-body2;
+    height: $fontSizes-body2;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: $fontSizes-body2;
+        height: $fontSizes-body2;
+        border-left: 1px solid $color-gray4;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.mobile-category-on-bg-layer {
+    position: fixed;
+    top: 4rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    max-width: $sizes-maxContent;
+}
+
+.mobile-category-on {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    touch-action: none;
+}
+
+@keyframes slide-to-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
     }
 }

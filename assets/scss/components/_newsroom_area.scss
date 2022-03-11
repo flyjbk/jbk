@@ -2,11 +2,13 @@
     border-top: 1px solid $color-gray3;
 
     .newsroom-inner-container {
-        margin: 0 auto;
-        max-width: $sizes-maxContent;
+        margin: 0 -$m-padding;
+        padding-bottom: 3rem;
 
         .newsroom-title {
-            margin-bottom: 6rem;
+            margin: 0 auto 6rem;
+            padding: 0 $m-padding;
+            max-width: $sizes-maxContent;
             font-size: $fontSizes-heading1;
             font-weight: normal;
             letter-spacing: -0.3px;
@@ -18,7 +20,9 @@
         }
 
         .newsroom-article-list {
-            margin-bottom: 3rem;
+            margin: 0 auto 3rem;
+            padding: 0 $m-padding;
+            max-width: $sizes-maxContent;
 
             .newsroom-article-item {
                 margin-bottom: 3rem;
@@ -27,13 +31,33 @@
                 font-size: $fontSizes-body2;
 
                 a {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-direction: row;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
 
+                    .article-info {
+                        .article-title {
+                            padding-right: 2rem;
+                            font-weight: bold;
+                            line-height: $lineHeights-body2;
+                        }
+
+                        .from-n-when {
+                            display: flex;
+                            align-items: center;
+                            font-size: $fontSizes-body2;
+                            line-height: $lineHeights-body2;
+                            
+                            .and-bar {
+                                transform: translateX(50%);
+                            }
+                        }
+                    }
+                    
                     .btn-more-article {
                         position: relative;
+                        width: 1.5rem;
 
                         &::before {
                             content: '';
@@ -42,7 +66,7 @@
                             height: 1.5rem;
                             border-right: 1px solid $color-gray2;
                             border-bottom: 1px solid $color-gray2;
-                            transform: translate(-200%, -50%) rotate(-45deg);
+                            transform: translate(-75%, -50%) rotate(-45deg);
                         }
                         
                         &::after {
@@ -52,7 +76,7 @@
                             height: 1.5rem;
                             border-right: 1px solid $color-gray2;
                             border-bottom: 1px solid $color-gray2;
-                            transform: translate(-150%, -50%) rotate(-45deg);
+                            transform: translate(-25%, -50%) rotate(-45deg);
                         }
                     }
                 }

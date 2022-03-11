@@ -1,10 +1,6 @@
 .content-area {
     width: 100%;
-    height: auto;
-    min-height: 100%;
     margin: 0 auto;
-    // max-width: $sizes-maxContent;
-    // padding: 0 $m-padding;
 
     & > div:not(.culture-area) {
         padding: 6rem $m-padding;

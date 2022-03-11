@@ -6,6 +6,7 @@
     margin: 0 auto;
     height: 4rem;
     background-color: #fff;
+    border-bottom: 1px solid $color-gray3;
     z-index: 9999;
 
     .header-content {
@@ -25,25 +26,70 @@
             .purplay {
                 color: $point-color;
             }
+
+            @media all and (max-width: 375px) {
+                font-size: 1.2rem;
+            }
         }
 
-        .category {
-            font-size: $fontSizes-body3;   
-            color: $color-gray5;
-            
-            .category-list {
-                display: flex;
+        @media all and (min-width: 644px) {
+            .btn-mobile-category {
+                display: none;
             }
-            .category-item {
-                padding: 0;
+            .mobile-category-on-bg-layer {
+                display: none;
+            }
+            .category {
+                font-size: $fontSizes-body3;   
+                color: $color-gray5;
                 
-                & + .category-item {
-                    padding-left: 3rem;
+                .category-list {
+                    display: flex;
                 }
-                &.true {
-                    color: #000;
-                    font-weight: 800;
+                .category-item {
+                    padding: 0;
+                    
+                    & + .category-item {
+                        padding-left: 3rem;
+                    }
+                    &.true {
+                        color: #000;
+                        font-weight: 800;
+                    }
                 }
+            }
+            .mobile-category {
+                display: none;
+            }
+        }
+
+        @media all and (max-width: 643px) { 
+            .mobile-category {
+                position: absolute;
+                top: 4rem;
+                left: 0;
+                width: 100%;
+                max-width: $sizes-maxContent;
+                font-size: $fontSizes-body1;   
+                color: $color-gray5;
+                background-color: #fff;
+
+                .category-list {
+                    display: flex;
+                    flex-direction: column;
+                    background-color: #fff;
+                    // backdrop-filter: blur(30px);
+                }
+                .category-item {
+                    padding: 1.5rem 1.5rem;
+                    &.true {
+                        color: #000;
+                        font-weight: 800;
+                    }
+                }
+            }
+            .category {
+                display: none;
             }
         }
     }

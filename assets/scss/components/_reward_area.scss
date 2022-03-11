@@ -1,0 +1,45 @@
+.reward-area {
+    margin: 0 auto;
+    max-width: $sizes-maxContent;
+
+    .reward-title {
+        margin-bottom: 2rem;
+        font-size: $fontSizes-heading1;
+        font-weight: bold;
+        white-space: pre-line;
+    }
+
+    .reward-detail {
+        .reward-subtitle {
+            margin-bottom: 1rem;
+            font-size: $fontSizes-heading4;
+            font-weight: 600;
+        }
+        
+        .reward-desc-wrapper {
+            display: grid;
+            grid-template-rows: auto;
+            gap: 1rem;
+
+            @media all and (min-width: 481px) {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            @media all and (min-width: 769px) {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            margin-bottom: 2rem;
+            max-width: $sizes-maxContent;
+            
+            .reward-desc {
+                padding: 1rem;
+                // width: 216px;
+                border: 1px solid rgba(0, 0, 0, 0.1);
+                border-radius: 12px;
+                font-size: $fontSizes-body2;
+                line-height: $lineHeights-body4;
+                color: $color-gray3;
+            }
+        }
+    }
+}
