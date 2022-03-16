@@ -1,12 +1,14 @@
 .search-area {
   align-items: center;
-  padding: 0 $m-padding;
   margin: 0 auto;
-  max-width: $sizes-maxContent;
   height: 100%;
+  padding: 0;
 
   .search-word {
     font-size: $fontSizes-heading2;
+    max-width: $sizes-maxContent;
+    padding: 0 $m-padding;
+    margin: 0 auto;
   }
 }
 
@@ -15,9 +17,10 @@
   color: $color-gray5;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-bottom: 30px;
   width: 100%;
+  max-width: $sizes-maxContent;
+  padding: 0 $m-padding;
+  margin: 40px auto;
 
   .search-category-detail {
     display: flex;
@@ -51,7 +54,7 @@
 .search-input {
   width: 100%;
   height: 100%;
-  margin: 0 auto;
+  text-align: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   align-items: center;
@@ -68,8 +71,10 @@
 .search-group {
   display: flex;
   font-size: $fontSizes-body3;
-  justify-content: space-around;
-  margin-top: 60px;
+  justify-content: space-between;
+  margin: 60 auto;
+  max-width: $sizes-maxContent;
+  padding: 0 $m-padding;
 
   .view-list {
     display: inline-block;
