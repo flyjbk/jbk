@@ -35,5 +35,13 @@
                 height: 2rem;
             }
         }
+
+        @media all and (max-width: 425px) {
+            display: block;
+
+            .service-item {
+                margin: 2rem 0;
+            }
+        }
     }
 }
