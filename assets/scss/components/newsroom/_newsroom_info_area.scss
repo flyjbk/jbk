@@ -1,0 +1,34 @@
+.newsroom-info-area {
+  margin: 0 auto;
+  max-width: $sizes-maxContent;
+  
+  .newsroom-category-n-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2.5rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    font-size: $fontSizes-body2;
+    color: $color-gray5;
+    // border-bottom: 1px solid $color-gray2;
+
+    .newsroom-category-wrapper {
+      .newsroom-category {
+        display: inline-block;
+        margin-right: 1rem;
+        padding: 4px 1.5rem;
+        border-radius: 50px;
+        background-color: $color-gray1;
+        color: white;
+        text-align: center;
+        height: 2rem;
+      }
+  
+      .newsroom-category:hover {
+        font-weight: 800;
+        background-color: black;
+      }
+    }
+  }
+}

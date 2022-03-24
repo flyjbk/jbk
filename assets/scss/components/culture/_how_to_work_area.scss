@@ -1,0 +1,28 @@
+.how-to-work-area {
+    margin: 0 auto -6rem;
+    max-width: $sizes-maxContent;
+
+    .area-title {
+        margin-bottom: 2rem;
+    }
+
+    .how-to-work-detail {
+        margin-bottom: 1rem;
+        text-align: justify;
+
+        .how-to-work-subtitle {
+            position: relative;
+            display: inline;
+            font-size: $fontSizes-heading4;
+            font-weight: 600;
+            vertical-align: top;
+            background: linear-gradient(to top, #eae0ff 38%, transparent 38%);
+        }
+
+        .how-to-work-desc {
+            padding: 1.5rem;
+            font-size: $fontSizes-body2;
+            line-height: $lineHeights-body4;
+        }
+    }
+}

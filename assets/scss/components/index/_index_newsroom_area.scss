@@ -1,0 +1,77 @@
+.index-newsroom-area {
+    border-top: 1px solid $color-gray3;
+
+    .newsroom-inner-container {
+        margin: 0 auto;
+        padding: 6rem $m-padding;
+        max-width: $sizes-maxContent;
+
+        .area-title {
+            margin: 0 auto 6rem;
+            font-weight: normal;
+        }
+
+        .newsroom-article-list {
+            margin: 0 auto 3rem;
+
+            .newsroom-article-item {
+                margin-bottom: 3rem;
+                padding-bottom: 3rem;
+                border-bottom: 1px solid $color-gray2;
+                font-size: $fontSizes-body2;
+
+                a {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-direction: row;
+
+                    .article-info {
+                        .article-title {
+                            padding-right: 2rem;
+                            font-weight: bold;
+                            line-height: $lineHeights-body2;
+                        }
+
+                        .from-n-when {
+                            display: flex;
+                            align-items: center;
+                            font-size: $fontSizes-body2;
+                            line-height: $lineHeights-body2;
+                            
+                            .and-bar {
+                                transform: translateX(50%);
+                            }
+                        }
+                    }
+                    
+                    .btn-more-article {
+                        position: relative;
+                        width: 1.5rem;
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            border-right: 1px solid $color-gray2;
+                            border-bottom: 1px solid $color-gray2;
+                            transform: translate(-75%, -50%) rotate(-45deg);
+                        }
+                        
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 1.5rem;
+                            height: 1.5rem;
+                            border-right: 1px solid $color-gray2;
+                            border-bottom: 1px solid $color-gray2;
+                            transform: translate(-25%, -50%) rotate(-45deg);
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

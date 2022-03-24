@@ -1,0 +1,20 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    &.newsroom {
+        margin-top: 8rem;
+        & > div:not(.wide) {
+            padding: 0 $m-padding;
+        }
+    }
+
+    &.index,
+    &.service,
+    &.culture {
+        & > div:not(.wide) {
+            padding: 6rem $m-padding;
+        }
+    }
+}

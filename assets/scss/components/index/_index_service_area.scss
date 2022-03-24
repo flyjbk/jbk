@@ -1,0 +1,39 @@
+.index-service-area {
+    margin: 0 auto;
+    max-width: $sizes-maxContent;
+    
+    .area-title {
+        font-weight: normal;
+    }
+
+    .service-list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .service-item {
+            text-align: center;
+            margin: 4rem 0;
+
+            .service-item-img {
+                width: 90%;
+                border-radius: 16px;
+                overflow: hidden;
+            }
+            
+            .service-item-title {
+                margin-top: 1rem;
+                font-size: $fontSizes-body1;
+                height: 2rem;
+            }
+        }
+
+        @media all and (max-width: 425px) {
+            display: block;
+
+            .service-item {
+                margin: 2rem 0;
+            }
+        }
+    }
+}
