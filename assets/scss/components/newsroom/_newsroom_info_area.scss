@@ -1,7 +1,5 @@
 .newsroom-info-area {
-  margin: 0 auto;
-  max-width: $sizes-maxContent;
-  
+    
   .newsroom-category-n-search {
     display: flex;
     justify-content: space-between;
@@ -11,9 +9,15 @@
     width: 100%;
     font-size: $fontSizes-body2;
     color: $color-gray5;
-    // border-bottom: 1px solid $color-gray2;
 
     .newsroom-category-wrapper {
+      overflow: auto;
+      white-space: nowrap;
+      
+      &::-webkit-scrollbar{
+        display: none; 
+      }
+
       .newsroom-category {
         display: inline-block;
         margin-right: 1rem;
@@ -29,6 +33,10 @@
         font-weight: 800;
         background-color: black;
       }
+    }
+
+    .newsroom-search-icon {
+      margin-left: 1rem;
     }
   }
 }

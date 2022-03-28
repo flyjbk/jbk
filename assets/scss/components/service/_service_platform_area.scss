@@ -1,0 +1,140 @@
+.service-platform-area {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+
+    .area-title {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        letter-spacing: -1px;
+    }
+
+    .platform-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-radius: 12px;
+        padding: 2rem 1.5rem 0 1.5rem;
+
+        overflow: hidden;
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        
+        .platform-item-info {
+            display: flex;
+            justify-content: space-between;
+            z-index: 10;
+
+                .platform-item-text {
+        
+                    .platform-item-title {
+                        margin: 0 0 0.5rem 0.2rem;
+                        font-size: $fontSizes-body2;
+                    }
+                    
+                    .platform-item-desc {
+                        margin-bottom: 2rem;
+                        font-size: $fontSizes-heading3;
+                        font-weight: 600;
+                        line-height: $lineHeights-heading3;
+                        white-space: pre-line;
+                    }
+                }
+        }
+
+        .online-theater-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            width: 6934px; // 조금 애매함.. item * 32을 내손내계산
+            margin-left: -2rem;
+            animation: slide-to-left 60s linear infinite;
+
+            @media all and (max-width: 480px) {
+                position: absolute;
+                top: 0;
+                z-index: -1;
+            }
+
+            .online-theater-item {
+                position: relative;
+                margin-right: 0.2rem;
+
+                height: 300px;
+                margin-bottom: -1px;
+
+                img {
+                    height: 300px;
+                    border: 0.2px solid $color-gray1;
+
+                    @media all and (max-width: 480px) {
+                        opacity: 0.5;
+                    }
+                }
+            }
+        }
+
+        &.online-theater {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            border: 1px solid $color-bgc-dark;
+
+            @media all and (max-width: 480px) {
+                height: 300px;
+            }
+
+            .platform-item-title {
+                color: $point-color;
+            }
+        }
+
+        &.streaming {
+            background-color: $color-gray7;
+            color: #fff;
+
+            @media all and (max-width: 576px) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                height: 300px;
+            }
+
+            .streaming-bg-img {
+                width: 100%;
+            }
+
+            .btn-platform-detail {
+                background-color: #fff;
+                &::before,
+                &::after {
+                    border-color: $color-bgc-dark;
+                }
+            }
+        }
+
+        &.webzine {
+            background-color: $color-gray6;
+            border: 1px solid $color-gray1;
+
+            @media all and (max-width: 576px) {
+                grid-column-start: 1;
+                grid-column-end: 3;
+                height: 300px;
+            }
+
+            .webzine-bg-img {
+                width: 100%;
+            }
+            
+        }
+
+        @media all and (max-width: 480px) {
+            cursor: pointer;
+        }        
+    }
+}

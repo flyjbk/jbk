@@ -13,17 +13,16 @@
 @import "../scss/components/index/index_service_area";
 @import "../scss/components/index/index_newsroom_area";
 
-@import "../scss/components/service/platform_area";
-@import "../scss/components/service/contents_n_events_area";
-
-@import "../scss/components/culture/how_to_work_area";
-@import "../scss/components/culture/reward_area";
-@import "../scss/components/culture/members_area";
+@import "../scss/components/service/service_platform_area";
+@import "../scss/components/service/service_contents_n_events_area";
 
 @import "../scss/components/newsroom/newsroom_info_area";
 @import "../scss/components/newsroom/newsroom_search_area";
-@import "../scss/components/newsroom/newsroom_article_wrapper";
-@import "../scss/components/newsroom/newsroom_article_more";
+@import "../scss/components/newsroom/newsroom_article_area";
+
+@import "../scss/components/culture/culture_how_to_work_area";
+@import "../scss/components/culture/culture_reward_area";
+@import "../scss/components/culture/culture_members_area";
 
 @import "../scss/pages/common";
 @import "../scss/pages/container";
