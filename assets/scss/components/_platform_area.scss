@@ -17,9 +17,6 @@
 
     .platform-item {
         position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         border-radius: 12px;
         padding: 2rem 1.5rem 0 1.5rem;
 
@@ -32,7 +29,6 @@
         .platform-item-info {
             display: flex;
             justify-content: space-between;
-            z-index: 10;
 
                 .platform-item-text {
         
@@ -52,9 +48,9 @@
         }
 
         .online-theater-wrapper {
-            width: 6934px; // 조금 애매함.. item * 32을 내손내계산
+            width: 2282px; // 조금 애매함.. item * 10을 내손내계산
             margin-left: -2rem;
-            animation: slide-to-left 60s linear infinite;
+            animation: slide-to-left 16s linear infinite;
 
             @media all and (max-width: 480px) {
                 position: absolute;
@@ -75,19 +71,15 @@
 
                 figure {
                     height: 300px;
-                    margin-bottom: -1px;
 
                     img {
                         height: 300px;
-                        border: 0.2px solid $color-gray1;
-
-                        @media all and (max-width: 480px) {
-                            opacity: 0.5;
-                        }
                     }
                 }
             }
         }
+
+        
 
         &.online-theater {
             grid-column-start: 1;
@@ -95,6 +87,7 @@
             border: 1px solid $color-bgc-dark;
 
             @media all and (max-width: 480px) {
+                background-color: rgba(255,255,255,0.4); 
                 height: 300px;
             }
 
@@ -104,7 +97,7 @@
         }
 
         &.streaming {
-            background-color: $color-gray7;
+            background-color: $color-bgc-dark;
             color: #fff;
 
             @media all and (max-width: 576px) {
@@ -127,8 +120,7 @@
         }
 
         &.webzine {
-            background-color: $color-gray6;
-            border: 1px solid $color-gray1;
+            background-color: $color-gray1;
 
             @media all and (max-width: 576px) {
                 grid-column-start: 1;
@@ -141,9 +133,5 @@
             }
             
         }
-
-        @media all and (max-width: 480px) {
-            cursor: pointer;
-        }        
     }
 }
