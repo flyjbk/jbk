@@ -76,7 +76,7 @@
                     }
 
                     li {
-                        font-weight: 500;
+                        font-weight: bold;
                         position: relative;
                         display: flex;
                         align-items: center;
@@ -95,13 +95,6 @@
 
                         span {
                             margin-left: 9px;
-                            text-align: justify;
-                            word-break: break-all;
-
-                            a {
-                                text-decoration: underline;
-                                text-underline-position: under;
-                            }
                         }
                     }
                 }

@@ -22,14 +22,17 @@
 
     .mission-desc {
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 2;
         font-size: $fontSizes-body2;
         line-height: $lineHeights-body2;
         letter-spacing: -0.3px;
         font-weight: 100;
+        white-space: pre-line;
 
-        @media all and (min-width: 960px) {
-            white-space: pre-line;
+        @media all and (max-width: 643px) {
+            grid-column-start: 1;
+            grid-column-end: 3;
+            white-space: normal;
         }
     }
 
@@ -69,7 +72,7 @@
         }
 
         @media (max-width: 766px) and (min-width: 644px) {
-            font-size: 3.4rem;
+            font-size: 3.7rem;
             .tag-1 {
                 grid-column-start: 1;
                 grid-column-end: 2;
@@ -101,17 +104,17 @@
                 grid-column-start: 1;
                 grid-column-end: 3;
                 text-align: center;
-                padding: 0 0 3rem;
+                padding: 3rem 0;
             }
             .tag-3 {
-                // grid-row-start: 2;
+                grid-row-start: 2;
                 grid-column-start: 1;
                 grid-column-end: 3;
                 text-align: center;
             }
         }
 
-        @media all and (max-width: 375px) {
+        @media all and (max-width: 425px) {
             font-size: 3.5rem;
 
             .tag-1,
@@ -121,7 +124,7 @@
             }
         }
 
-        @media all and (max-width: 320px) {
+        @media all and (max-width: 375px) {
             font-size: 3rem;
 
             .tag-1,

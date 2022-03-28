@@ -11,18 +11,25 @@
     
     .footer-company-name {
         font-size: $fontSizes-body2;
-        font-weight: 600;
+        font-weight: bold;
     }
 
     .footer-content-list {
         margin: 2rem 0;
-    }
-
-    .footer-content-item {
         font-size: $fontSizes-body4;
         color: $color-gray4;
-        text-align: justify;
-        word-break: break-all;
+
+        .footer-content-item-wrapper {
+            display: block;
+
+            .footer-content-item {
+                & + .footer-content-item {
+                    padding-left: 4px;
+                    border-left: 1px solid $color-gray4;
+                }
+            }
+
+        }
     }
 
     .footer-sns-wrapper {
@@ -30,7 +37,7 @@
         flex-wrap: wrap;
         max-width: 100%;
         font-size: $fontSizes-body3;
-        font-weight: 700;
+        font-weight: bold;
 
         .btn-footer-sns {
             &:not(:last-child) {
