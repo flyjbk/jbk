@@ -2,7 +2,7 @@
     background-color: $color-bgc-dark;
     color: #fff;
     
-    .history-inner-container {
+    .index-history-inner-container {
         margin: 0 auto;
         padding: 6rem $m-padding;
         max-width: $sizes-maxContent;
@@ -55,17 +55,19 @@
             }
     
             .history-of-the-year {
+                margin-top: 0.2rem;
                 padding-left: 2rem;
                 padding-bottom: 1rem;
                 border-left: 1px solid $color-gray2;
                 font-size: $fontSizes-body3;
                 transform: translate(-8px, 3px);
                 
-                .history-of-the-year-monthly {
+                .history-of-the-year-detail {
                     margin-bottom: 1.5rem;
                     p {
+                        line-height: 0.8rem;
                         color: $color-gray1;
-                        margin-bottom: 0.25rem;
+                        margin-bottom: 0.5rem;
                     }
 
                     li {

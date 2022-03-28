@@ -1,11 +1,12 @@
 .container {
     width: 100%;
-    margin: 0 auto;
     margin-top: 2rem;
 
     &.newsroom {
         margin-top: 8rem;
         & > div:not(.wide) {
+            margin: 0 auto;
+            max-width: $sizes-maxContent;
             padding: 0 $m-padding;
         }
     }
@@ -14,6 +15,8 @@
     &.service,
     &.culture {
         & > div:not(.wide) {
+            margin: 0 auto;
+            max-width: $sizes-maxContent;
             padding: 6rem $m-padding;
         }
     }

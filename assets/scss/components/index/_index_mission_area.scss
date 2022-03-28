@@ -1,7 +1,4 @@
 .index-mission-area {
-    max-width: $sizes-maxContent;
-    margin: 0 auto;
-
     display: grid;
     grid-template-rows: auto;
     grid-template-columns: 1fr 1fr;
@@ -12,7 +9,7 @@
         font-weight: normal;
     }
 
-    .mission-desc {
+    .index-mission-desc {
         grid-column-start: 1;
         grid-column-end: 3;
         font-size: $fontSizes-body2;

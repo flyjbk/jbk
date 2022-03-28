@@ -1,7 +1,7 @@
 .index-newsroom-area {
     border-top: 1px solid $color-gray3;
 
-    .newsroom-inner-container {
+    .index-newsroom-inner-container {
         margin: 0 auto;
         padding: 6rem $m-padding;
         max-width: $sizes-maxContent;
@@ -11,10 +11,10 @@
             font-weight: normal;
         }
 
-        .newsroom-article-list {
+        .index-newsroom-article-list {
             margin: 0 auto 3rem;
 
-            .newsroom-article-item {
+            .index-newsroom-article-item {
                 margin-bottom: 3rem;
                 padding-bottom: 3rem;
                 border-bottom: 1px solid $color-gray2;
@@ -33,7 +33,7 @@
                             line-height: $lineHeights-body2;
                         }
 
-                        .from-n-when {
+                        .article-from-n-when {
                             display: flex;
                             align-items: center;
                             font-size: $fontSizes-body2;
@@ -45,7 +45,7 @@
                         }
                     }
                     
-                    .btn-more-article {
+                    .btn-article-detail {
                         position: relative;
                         width: 1.5rem;
 
