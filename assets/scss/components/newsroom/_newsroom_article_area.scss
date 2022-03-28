@@ -20,10 +20,11 @@
       
     .newsroom-article-item {
       .article-img {
+        object-fit: cover;
         width: 100%;
-        height: auto;
-        border-radius: 16px;
-        overflow: hidden;
+        height: 160px;
+        border-radius: 12px;
+        border: 1px solid #eee;
       }
 
       .article-info {
@@ -36,7 +37,7 @@
           font-size: $fontSizes-body3;
 
           .article-category {
-            color: $color-gray2;
+            color: $color-gray3;
           }
 
           .and-bar {
@@ -64,11 +65,16 @@
         }
 
         .article-when {
-          margin-top: 0.5rem;
+          margin-top: 6px;
           color: $color-gray2;
           font-size: $fontSizes-body3;
         }
       }
+    }
+
+    .newsroom-article-item:hover {
+      transform: translate3d(0, -15px, 0);
+      transition: 450ms cubic-bezier(0.25, 1, 0.5, 1);
     }
   }
 
@@ -80,6 +86,11 @@
     i {
       color: $color-gray2;
       font-size: 50px;
-  }
+    }
+
+    i:hover {
+      color: #000;
+      font-size: 50px;
+    }
   }
 }
