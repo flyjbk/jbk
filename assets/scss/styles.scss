@@ -4,6 +4,9 @@
 
 @import "../scss/base/reset";
 
+@import "../scss/pages/common";
+@import "../scss/pages/container";
+
 @import "../scss/components/header_area";
 @import "../scss/components/culture_area";
 @import "../scss/components/footer_area";
@@ -24,5 +27,3 @@
 @import "../scss/components/culture/culture_reward_area";
 @import "../scss/components/culture/culture_members_area";
 
-@import "../scss/pages/common";
-@import "../scss/pages/container";

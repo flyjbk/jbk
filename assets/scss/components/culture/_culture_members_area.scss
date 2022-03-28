@@ -30,7 +30,7 @@
             display: flex;
             flex-wrap: wrap;
 
-            .member-detail {
+            .member {
                 flex: 1 1 28%;
 
                 @media all and (min-width: 577px) and (max-width: 840px){
@@ -62,7 +62,7 @@
                     font-weight: bold;
                 }
 
-                .belongs-to-n-position {
+                .member-belongs-to-n-position {
                     padding: 0.7rem 0;
                     display: flex;
                     justify-content: center;
@@ -75,7 +75,7 @@
                     color: $color-gray4;
                 }
 
-                .introduce-myself {
+                .member-introduce-myself {
                     margin: 1rem 0 2rem;
                     height: 78px;
                     font-size: 1.1rem;
