@@ -1123,7 +1123,7 @@ textarea::-webkit-outer-spin-button {
   background-color: #b3b3b3;
 }
 
-.newsroom-info-area .newsroom-category-n-search {
+.newsroom-category-n-search-area {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1140,16 +1140,19 @@ textarea::-webkit-outer-spin-button {
   color: #333333;
 }
 
-.newsroom-info-area .newsroom-category-n-search .newsroom-category-wrapper {
+.newsroom-category-n-search-area .newsroom-category-inner-container {
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  width: 960px;
   overflow: auto;
   white-space: nowrap;
 }
 
-.newsroom-info-area .newsroom-category-n-search .newsroom-category-wrapper::-webkit-scrollbar {
+.newsroom-category-n-search-area .newsroom-category-inner-container::-webkit-scrollbar {
   display: none;
 }
 
-.newsroom-info-area .newsroom-category-n-search .newsroom-category-wrapper .newsroom-category {
+.newsroom-category-n-search-area .newsroom-category-inner-container .newsroom-category {
   display: inline-block;
   margin-right: 1rem;
   padding: 4px 1.5rem;
@@ -1160,13 +1163,9 @@ textarea::-webkit-outer-spin-button {
   height: 2rem;
 }
 
-.newsroom-info-area .newsroom-category-n-search .newsroom-category-wrapper .newsroom-category:hover {
+.newsroom-category-n-search-area .newsroom-category-inner-container .newsroom-category:hover {
   font-weight: 800;
   background-color: black;
-}
-
-.newsroom-info-area .newsroom-category-n-search .newsroom-search-icon {
-  margin-left: 1rem;
 }
 
 .newsroom-search-area {
