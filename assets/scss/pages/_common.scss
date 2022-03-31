@@ -136,3 +136,12 @@
         transform: translateX(-50%);
     }
 }
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

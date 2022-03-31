@@ -17,7 +17,7 @@
             display: flex;
             justify-content: center;
 
-            .btn-history-by-year {
+            .btn-history-by-year-wrapper {
                 display: flex;
                 flex-direction: column;
                 z-index: 10;
@@ -32,6 +32,7 @@
                     font-size: $fontSizes-body2;
                     font-weight: bold;
                     width: 5rem;
+                    height: 1.5rem;
 
                     &::after {
                         content: '';
@@ -39,7 +40,7 @@
                         height: 15px;
                         border-radius: 50%;    
                         background-color: $point-color;
-                        
+                        transform: translateY(1px);
                     }
 
                     &.true::after {
@@ -49,7 +50,7 @@
                         border-radius: 50%;
                         border: 3px solid #fff;
                         background-color: $point-color;
-                        transform: translateX(1px);
+                        transform: translate(1px, 1px);
                     }
                 }
             }
@@ -63,7 +64,9 @@
                 transform: translate(-8px, 3px);
                 
                 .history-of-the-year-detail {
-                    margin-bottom: 1.5rem;
+                    margin-bottom: 1.5rem;  
+                    animation: fadein 3s;
+
                     p {
                         line-height: 0.8rem;
                         color: $color-gray1;

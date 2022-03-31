@@ -35,6 +35,8 @@
         font-weight: 800;
         color: $point-color;
 
+        animation: fadein 3s;
+
         @media all and (min-width: 767px) {
             .tag-1 {
                 grid-column-start: 1;

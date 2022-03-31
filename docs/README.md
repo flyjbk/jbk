@@ -30,3 +30,11 @@ Title: 제목
 Inner-container: 페이지 내 콘테이너 아래 area가 화면 전체를 쓸 때, 실제 내용물을 감싸는 내부 콘테이너
 List, item: 리스트,아이템
 Article: 인덱스, 뉴스룸 각각 기사
+
+# json-server
+https://github.com/typicode/json-server
+
+- 짧은 시간에 REST API를 구축해주는 패키지
+- 실제 프로덕션에서는 사용하지 않음
+- npm을 통해 설치 가능
+- 시작(터미널 열고 복붙): json-server --watch db.json

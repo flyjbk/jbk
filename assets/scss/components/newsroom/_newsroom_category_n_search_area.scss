@@ -12,13 +12,10 @@
     margin: 0 auto;
     padding: 0 1.5rem;
     width: $sizes-maxContent;
+    height: 48px;
 
     overflow-x: auto;
     white-space: nowrap;
-    
-    &::-webkit-scrollbar{
-      display: none; 
-    }
 
     .newsroom-category {
       display: inline-block;
@@ -29,15 +26,16 @@
       color: white;
       text-align: center;
       height: 2rem;
+      font-size: 16px;
 
       &.true {
-        font-weight: 600;
+        font-weight: 500;
         background-color: #000;
       }
     }
 
     .newsroom-category:hover {
-      font-weight: 600;
+      font-weight: 500;
       background-color: black;
     }
   }
