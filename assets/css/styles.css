@@ -1395,17 +1395,51 @@ textarea::-webkit-outer-spin-button {
 }
 
 .newsroom-search-area .newsroom-search-inner-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
-  max-width: 960px;
 }
 
 .newsroom-search-area .newsroom-search-inner-container .newsroom-search-input {
-  border: none;
   width: 80%;
-  margin-left: 10px;
+  border: none;
   padding: 10px 20px;
+  margin-left: 1%;
+  font-size: 1rem;
+  color: #000;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-input::-webkit-input-placeholder {
   color: #808080;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-input:-ms-input-placeholder {
+  color: #808080;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-input::-ms-input-placeholder {
+  color: #808080;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-input::placeholder {
+  color: #808080;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-input:focus {
+  outline: 1px solid #808080;
+  border-radius: 4px;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-button {
+  padding-left: 0;
+}
+
+.newsroom-search-area .newsroom-search-inner-container .newsroom-search-button i {
+  padding-left: 16px;
 }
 
 .newsroom-article-area .newsroom-article-wrapper {
@@ -1690,3 +1724,4 @@ textarea::-webkit-outer-spin-button {
   line-height: 1.625rem;
   color: #808080;
 }
+/*# sourceMappingURL=styles.css.map */

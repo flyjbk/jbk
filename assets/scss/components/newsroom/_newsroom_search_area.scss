@@ -6,16 +6,36 @@
     color: $color-gray5;
 
     .newsroom-search-inner-container {
+      display: flex;
+      width: 100%;
+      max-width: $sizes-maxContent;
       margin: 0 auto;
       padding: 2rem $m-padding;
-      max-width: $sizes-maxContent;
 
       .newsroom-search-input {
-        border: none;
         width: 80%;
-        margin-left: 10px;
+        border: none;
         padding: 10px 20px;
+        margin-left: 1%;
+        font-size: $fontSizes-body2;
+        color: #000;
+      }
+
+      .newsroom-search-input::placeholder {
         color: $color-gray3;
+      }
+
+      .newsroom-search-input:focus {
+        outline: 1px solid $color-gray3;
+        border-radius: 4px;
+      }
+
+      .newsroom-search-button {
+        padding-left: 0;
+
+        i {
+          padding-left: 16px;
+        }
       }
     }
   }

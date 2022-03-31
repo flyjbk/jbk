@@ -8,31 +8,33 @@
           "detail": [
                       {
                           "type": "수상",
-                          "content": "djwekln"
+                          "content": "[아마존웹서비스코리아] IT분야 여성 사회적경제기업 우수 어워드",
+                          "link": ''
                       },
                       {
                           "type": "수상",
-                          "content": "ee"
-                      },
-                      {
-                          "type": "수상",
-                          "content": "adgae"
+                          "content": "[문화체육관광부] 양성평등문화상 양성평등문화지원상 단체부분 장관상",
+                          "link": ''
                       },
                       {
                           "type": "인증",
-                          "content": "asde"
+                          "content": "[고용노동부] 사회적기업 기타(창의·혁신)형",
+                          "link": ''
                       },
                       {
                           "type": "인증",
-                          "content": "qpe"
+                          "content": "[중소벤처기업부] 벤처기업",
+                          "link": ''
                       },
                       {
                           "type": "인증",
-                          "content": "1245ㅅ"
+                          "content": "[중소벤처기업부] 성과공유도입기업",
+                          "link": ''
                       },
                       {
                           "type": "인증",
-                          "content": "1ㅐㅐㅐ33"
+                          "content": "[여성가족부] 가족친화기업",
+                          "link": ''
                       },
                       {
                           "type": "주요활동",
@@ -41,7 +43,8 @@
                       },
                       {
                           "type": "후원",
-                          "content": "ssqpekln"
+                          "content": "영화 <까만점> (감독 이영음) 수익금 한국사이버성폭력대응센터 기부",
+                          "link": ''
                       }
           ]
       },   
@@ -49,172 +52,184 @@
           "year" : 2020,
           "type": [ "인증", "수상", "주요활동", "후원"],
           "detail": [
-              {
-                  "type": "수상",
-                  "content": "djwekln"
-              },
-              {
-                  "type": "수상",
-                  "content": "ee"
-              },
-              {
-                  "type": "수상",
-                  "content": "adgae"
-              },
-              {
-                  "type": "인증",
-                  "content": "asde"
-              },
-              {
-                  "type": "인증",
-                  "content": "qpe"
-              },
-              {
-                  "type": "인증",
-                  "content": "1245ㅅ"
-              },
-              {
-                  "type": "인증",
-                  "content": "1ㅐㅐㅐ33"
-              },
-              {
-                  "type": "주요활동",
-                  "content": "온라인극장",
-                  "link": "https://purplay.co.kr/off"
-              },
-              {
-                  "type": "후원",
-                  "content": "ssqpekln"
-              }
+            {
+                "type": "수상",
+                "content": "[아마존웹서비스코리아] IT분야 여성 사회적경제기업 우수 어워드",
+                "link": ''
+            },
+            {
+                "type": "수상",
+                "content": "[문화체육관광부] 양성평등문화상 양성평등문화지원상 단체부분 장관상",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[고용노동부] 사회적기업 기타(창의·혁신)형",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 벤처기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 성과공유도입기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[여성가족부] 가족친화기업",
+                "link": ''
+            },
+            {
+                "type": "주요활동",
+                "content": "온라인극장",
+                "link": "https://purplay.co.kr/off/"
+            },
+            {
+                "type": "후원",
+                "content": "영화 <까만점> (감독 이영음) 수익금 한국사이버성폭력대응센터 기부",
+                "link": ''
+            }
           ]
       },
       { 
           "year" : 2019,
           "type": ["수상", "인증", "후원" , "주요활동"],
           "detail": [
-              {
-                  "type": "수상",
-                  "content": "djwekln"
-              },
-              {
-                  "type": "수상",
-                  "content": "ee"
-              },
-              {
-                  "type": "수상",
-                  "content": "adgae"
-              },
-              {
-                  "type": "인증",
-                  "content": "asde"
-              },
-              {
-                  "type": "인증",
-                  "content": "qpe"
-              },
-              {
-                  "type": "인증",
-                  "content": "1245ㅅ"
-              },
-              {
-                  "type": "인증",
-                  "content": "1ㅐㅐㅐ33"
-              },
-              {
-                  "type": "주요활동",
-                  "content": "온라인극장",
-                  "link": "https://purplay.co.kr/off"
-              },
-              {
-                  "type": "후원",
-                  "content": "ssqpekln"
-              }
+            {
+                "type": "수상",
+                "content": "[아마존웹서비스코리아] IT분야 여성 사회적경제기업 우수 어워드",
+                "link": ''
+            },
+            {
+                "type": "수상",
+                "content": "[문화체육관광부] 양성평등문화상 양성평등문화지원상 단체부분 장관상",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[고용노동부] 사회적기업 기타(창의·혁신)형",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 벤처기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 성과공유도입기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[여성가족부] 가족친화기업",
+                "link": ''
+            },
+            {
+                "type": "주요활동",
+                "content": "온라인극장",
+                "link": "https://purplay.co.kr/off/"
+            },
+            {
+                "type": "후원",
+                "content": "영화 <까만점> (감독 이영음) 수익금 한국사이버성폭력대응센터 기부",
+                "link": ''
+            }
           ]
       },
       { 
           "year" : 2018,
           "type": ["수상", "인증", "주요활동", "후원"],
           "detail": [
-              {
-                  "type": "수상",
-                  "content": "djwekln"
-              },
-              {
-                  "type": "수상",
-                  "content": "ee"
-              },
-              {
-                  "type": "수상",
-                  "content": "adgae"
-              },
-              {
-                  "type": "인증",
-                  "content": "asde"
-              },
-              {
-                  "type": "인증",
-                  "content": "qpe"
-              },
-              {
-                  "type": "인증",
-                  "content": "1245ㅅ"
-              },
-              {
-                  "type": "인증",
-                  "content": "1ㅐㅐㅐ33"
-              },
-              {
-                  "type": "주요활동",
-                  "content": "온라인극장",
-                  "link": "https://purplay.co.kr/off"
-              },
-              {
-                  "type": "후원",
-                  "content": "ssqpekln"
-              }
+            {
+                "type": "수상",
+                "content": "[아마존웹서비스코리아] IT분야 여성 사회적경제기업 우수 어워드",
+                "link": ''
+            },
+            {
+                "type": "수상",
+                "content": "[문화체육관광부] 양성평등문화상 양성평등문화지원상 단체부분 장관상",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[고용노동부] 사회적기업 기타(창의·혁신)형",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 벤처기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 성과공유도입기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[여성가족부] 가족친화기업",
+                "link": ''
+            },
+            {
+                "type": "주요활동",
+                "content": "온라인극장",
+                "link": "https://purplay.co.kr/off/"
+            },
+            {
+                "type": "후원",
+                "content": "영화 <까만점> (감독 이영음) 수익금 한국사이버성폭력대응센터 기부",
+                "link": ''
+            }
           ]
       },
       { 
           "year" : 2017,
           "type": ["수상", "인증", "주요활동", "후원"],
           "detail": [
-              {
-                  "type": "수상",
-                  "content": "djwekln"
-              },
-              {
-                  "type": "수상",
-                  "content": "ee"
-              },
-              {
-                  "type": "수상",
-                  "content": "adgae"
-              },
-              {
-                  "type": "인증",
-                  "content": "asde"
-              },
-              {
-                  "type": "인증",
-                  "content": "qpe"
-              },
-              {
-                  "type": "인증",
-                  "content": "1245ㅅ"
-              },
-              {
-                  "type": "인증",
-                  "content": "1ㅐㅐㅐ33"
-              },
-              {
-                  "type": "주요활동",
-                  "content": "온라인극장",
-                  "link": "https://purplay.co.kr/off"
-              },
-              {
-                  "type": "후원",
-                  "content": "ssqpekln"
-              }
+            {
+                "type": "수상",
+                "content": "[아마존웹서비스코리아] IT분야 여성 사회적경제기업 우수 어워드",
+                "link": ''
+            },
+            {
+                "type": "수상",
+                "content": "[문화체육관광부] 양성평등문화상 양성평등문화지원상 단체부분 장관상",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[고용노동부] 사회적기업 기타(창의·혁신)형",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 벤처기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[중소벤처기업부] 성과공유도입기업",
+                "link": ''
+            },
+            {
+                "type": "인증",
+                "content": "[여성가족부] 가족친화기업",
+                "link": ''
+            },
+            {
+                "type": "주요활동",
+                "content": "온라인극장",
+                "link": "https://purplay.co.kr/off/"
+            },
+            {
+                "type": "후원",
+                "content": "영화 <까만점> (감독 이영음) 수익금 한국사이버성폭력대응센터 기부",
+                "link": ''
+            }
           ]
       }
     ]
