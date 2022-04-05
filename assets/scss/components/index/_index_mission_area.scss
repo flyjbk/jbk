@@ -35,7 +35,11 @@
         font-weight: 800;
         color: $point-color;
 
-        animation: fadein 3s;
+        .tag-1-text,
+        .tag-2-text,
+        .tag-3-text {
+            animation: fadein 3s;  
+        }
 
         @media all and (min-width: 767px) {
             .tag-1 {
@@ -43,7 +47,6 @@
                 grid-column-end: 2;
                 text-align: center;
                 padding: 4rem 0;
-                
             }
             .tag-2 {
                 grid-column-start: 2;

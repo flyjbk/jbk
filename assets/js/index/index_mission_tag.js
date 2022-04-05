@@ -35,14 +35,34 @@
         return document.querySelectorAll(target)
     }
 
-    const $tag_1 = get('.tag-1-text')
-    const $tag_2 = get('.tag-2-text')
-    const $tag_3 = get('.tag-3-text')
+    const $tag_1 = get('.tag-1')
+    const $tag_2 = get('.tag-2')
+    const $tag_3 = get('.tag-3')
 
 
     const showRandomThreeTags = () => {
+        let $tag_1_text = get('.tag-1-text')
+        let $tag_2_text = get('.tag-2-text')
+        let $tag_3_text = get('.tag-3-text')
+        $tag_1.removeChild($tag_1_text)
+        $tag_2.removeChild($tag_2_text)
+        $tag_3.removeChild($tag_3_text)
+
         let randomThreeTags = new Array(3)
         let numberCheckArray = new Array(tags.length)
+
+        $tag_1_text = document.createElement('p')
+        $tag_1_text.classList.add('tag-1-text')
+        $tag_1.appendChild($tag_1_text)
+        
+        $tag_2_text = document.createElement('p')
+        $tag_2_text.classList.add('tag-2-text')
+        $tag_2.appendChild($tag_2_text)
+        
+        $tag_3_text = document.createElement('p')
+        $tag_3_text.classList.add('tag-3-text')
+        $tag_3.appendChild($tag_3_text)
+
         for(let i = 0; i < tags.length; i++) {
             numberCheckArray[i] = false
         }
@@ -59,14 +79,15 @@
             }
         }
         
-        $tag_1.textContent = '#' + randomThreeTags[0]
-        $tag_2.textContent = '#' + randomThreeTags[1]
-        $tag_3.textContent = '#' + randomThreeTags[2]
+        $tag_1_text.textContent = '#' + randomThreeTags[0]
+        $tag_2_text.textContent = '#' + randomThreeTags[1]
+        $tag_3_text.textContent = '#' + randomThreeTags[2]
     }
 
     const init = () => {        
         window.addEventListener('DOMContentLoaded', () => {
             showRandomThreeTags()
+            setInterval(showRandomThreeTags, 3000)
         })
     }
 

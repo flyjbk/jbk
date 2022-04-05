@@ -73,6 +73,10 @@
                     font-size: $fontSizes-body2;
                     font-weight: bold;
                     color: $color-gray4;
+
+                    .and-bar::after {
+                        transform: translateY(10%);
+                    }
                 }
 
                 .member-introduce-myself {

@@ -146,7 +146,7 @@ import { get, getAll } from "../utils.js";
     moreArticleButton()
   }
 
-  //서버에서 news 데이터 받음
+  //응답결과 있는지 확인
   const getNews = async () => {
     let CUSTOM_URL = `${API_URL}?_limit=${limit}&_page=${page}`
     
